@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["Help desk phone: (+91) 8018481485", "help desk email: helpdesk@oretes.com" ],
+         "context": [""]
+        },
+        {"tag": "Popular courses",
+         "patterns": ["Data analysis", "science", "Java", "Angular JS", "React", "Android", "Django" ],
+         "responses": ["Get more information from http://oretesacademy.com/index.php"],
+         "context": [""]
+        },
+        {"tag": "Internship",
+         "patterns": ["Augmented Reality", "Internship courses", "Courses for/with internship", "job prospects", "integrated courses" ],
+         "responses": ["Find more on http://oretesacademy.com/datascience.php" ],
+         "context": [""]
+        },
+        {"tag": "Popular courses",
+         "patterns": ["Data analysis using Python and R", "App development", "Full stack development", "Data science", "Programming languages" ],
+         "responses": ["Find more on http://oretesacademy.com/index.php"],
+         "context": ["programming"]
+        },
+        {"tag": "Java",
+         "patterns": ["programming", "java", "Full stack development"],
+         "responses": ["This will be just right for you, http://oretesacademy.com/java.php"],
+         "context": [""]
+        },
+        {"tag": "React",
+         "patterns": ["React", "programming with react", "web app development using react", "Block chain", "Advance programming" ],
+         "responses": ["This will be just right for you, http://oretesacademy.com/react.php"],
+         "context": ["Python"]
+        },
+        {"tag": "Python",
+         "patterns": ["Python", "programming", "data science with python", "data analysis using python", "advance python programming", "R"],
+         "responses": ["This will be just right for you, http://oretesacademy.com/dataanalysis.php"],
+         "context": ["data analysis"]
+        },
+        {"tag": "Django",
+         "patterns": ["django", "mongodb", "advance programming", "web dev", "website development" ],
+         "responses": ["http://oretesacademy.com/Full%20Stack%20Web%20Developer-Django.php"],
+         "context": ["django"]
+        },
+        {"tag": "django",
+         "patterns": ["PHP", "web development with php"],
+         "responses": ["http://oretesacademy.com/Full%20Stack%20Web%20Developer-php.php"],
+         "context": ["certifications"]
+        },
+        {"tag": "certifications",
+         "patterns": ["AWS certification,"],
+         "responses": [" http://oretesacademy.com/aws.php and many more, check out"],
+         "context": [""]
+        }
+   ]
+}
